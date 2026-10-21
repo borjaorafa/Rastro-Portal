@@ -1,22 +1,6 @@
 {
   "produto": "Rastro",
   "empresa": "RBS Technology",
-  "aviso": "Instaladores disponíveis somente após homologação e autorização.",
-  "versoes": [
-    {
-      "versao": "2.34.0.54",
-      "estado": "rascunho",
-      "publicadaEm": null,
-      "arquivo": "",
-      "tamanhoMB": null,
-      "sha256": "",
-      "urlDownload": "",
-      "resumo": "Versão de referência. Dados oficiais a confirmar antes da publicação.",
-      "notas": [
-        "Instalador pendente de homologação e publicação.",
-        "Distribuição restrita aos clientes autorizados pela RBS Technology.",
-        "Histórico e dados de integridade serão informados após a homologação."
-      ]
-    }
-  ]
+  "publicacao": "Somente versões homologadas e autorizadas são disponibilizadas.",
+  "versoes": []
 }
