@@ -1,0 +1,1390 @@
+{
+  "produto": "Rastro",
+  "tipo": "historico_documental_nao_instalavel",
+  "fonte": "Rastro v2.34.0.58.1 / motor/interface/historico-atualizacoes.json",
+  "dataImportacao": "2026-10-21",
+  "quantidadeRegistros": 100,
+  "orientacao": "Os itens documentam alteracoes anteriores do software. Nao representam GitHub Releases homologados, instaladores recuperados nem datas confirmadas. Sem download disponivel.",
+  "registros": [
+    {
+      "versao": "v2.34.0.58.1",
+      "titulo": "Correção completa de senhas, conexão e qualidade dos cadastros",
+      "resumo": "Corrige estado de troca de senha, reset remoto do gestor, senha provisória forte, restauração segura da sessão administrativa e contexto de empresa do cliente. Oferece revisão detalhada de cadastros na própria tela e compatibiliza a paleta.",
+      "notas": [
+        "Reconciliar pendência de senha com estado autenticado do D1",
+        "Eliminar senha padrão e disponibilizar senha provisória aleatória",
+        "Preservar sessão administrativa cifrada ao sair e ao atualizar",
+        "Preselecionar apenas o tenant autenticado no Worker",
+        "Selecionar motoristas e melhorar a ficha sem redirecionamentos",
+        "Restabelecer consulta e padronizar aparência monocromática"
+      ],
+      "documentacaoOriginal": "detalhada",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.58",
+      "titulo": "Correções de usuários e qualidade cadastral",
+      "resumo": "Gestão de usuários revalida a conclusão de troca de senha na Central; os filtros e resultados de Qualidade dos Cadastros voltam a aparecer na área principal do Rastro.",
+      "notas": [
+        "Reconferir mudança de senha na Central ao abrir ou atualizar a lista",
+        "Exibir a pendência real nas consultas da Central",
+        "Recuperar a tela e a análise dos cadastros"
+      ],
+      "documentacaoOriginal": "detalhada",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.57",
+      "titulo": "Pacotes de atualizacao de ate 100 MB",
+      "resumo": "O Rastro aceita pacotes de atualizacao maiores na Distribuicao de Versoes, com limite de 100 MB. A validacao foi atualizada desde a selecao do arquivo ate o servico remoto, sem remover conferencias de seguranca.",
+      "notas": [
+        "Enviar atualizacoes de ate 100 MB",
+        "Conferencia do limite em todas as etapas"
+      ],
+      "documentacaoOriginal": "detalhada",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.56",
+      "titulo": "Arquivos Excel com nomes claros e padronizados",
+      "resumo": "Os downloads deixam claro o tipo de relatório, o motorista e o período analisado. O padrão vale para os sete formatos após a importação, exportações do histórico e arquivos dentro de ZIPs de múltiplos motoristas.",
+      "notas": [
+        "Cada um dos quatro formatos principais agora tem um nome inconfundível",
+        "Padrão uniforme também nos formatos Completo, Cronológico e Resumo Gerencial",
+        "Arquivos de vários motoristas vêm separados e identificados"
+      ],
+      "documentacaoOriginal": "detalhada",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.55",
+      "titulo": "Mensagens padronizadas e diagnóstico do atualizador",
+      "resumo": "Confirmações, solicitações e avisos usam caixas de diálogo com a identidade visual do Rastro; erros de consulta, download e instalação de atualizações agora são explicados por etapa.",
+      "notas": [
+        "Confirmações com identidade visual do Rastro",
+        "Solicitação de informações dentro do Rastro",
+        "Erros por etapa no processo de atualização"
+      ],
+      "documentacaoOriginal": "detalhada",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.54",
+      "titulo": "Cadastros interligados, frota empresarial e distribuição de versões",
+      "resumo": "Relações seguras entre cadastros, prévia de frota compartilhada, modelo de importação aplicado sob confirmação e correções em consultas operacionais. Distribuição privada pelo License Manager permanece disponível.",
+      "notas": [
+        "Prévia e conciliação entre computadores",
+        "Relacionamentos por ID entre endereços, equipes, serviços, contratos e despesas",
+        "Consulta ampliada de cadastros relacionados",
+        "Aplicação orientada dos modelos de importação",
+        "Publicação privada de novas versões pelo próprio Rastro"
+      ],
+      "documentacaoOriginal": "detalhada",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.53",
+      "titulo": "Cadastros conectados e consistência de consultas",
+      "resumo": "Correções de relacionamentos empresariais, integridade das fichas 360°, atualização dos seletores e indicadores documentais.",
+      "notas": [
+        "Cadastros 360° vinculados somente por identificador seguro",
+        "Busca completa das fichas complementares sem corte silencioso",
+        "Listas atualizadas quando Pessoas e Equipamentos muda",
+        "Exportação Excel correspondente às informações exibidas"
+      ],
+      "documentacaoOriginal": "detalhada",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.52",
+      "titulo": "Consolidação operacional, auditoria e integração MyGeotab",
+      "resumo": "Esta é uma versão de consolidação do Rastro. Ela reúne melhorias de cadastros, importação e Excel, investigação de deslocamentos, alertas, integração GPS e segurança do acesso. Em cada entrega você pode entender a situação anterior, a mudança realizada e o benefício para sua rotina.",
+      "notas": [
+        "17 cadastros operacionais complementares",
+        "Cadastro e padronização de endereços",
+        "Complementos de motoristas, veículos e vínculos",
+        "Impedimento de vínculos com datas conflitantes",
+        "Configurações divididas em quatro pastas",
+        "Consulta de clientes com acesso pela identificação",
+        "Correção da autorização de sessão central",
+        "Análise de qualidade dos cadastros",
+        "Tratamento de pendências com responsável e prazo",
+        "Filtros e paginação no servidor",
+        "Dossiê de visita com origem das evidências",
+        "Análise de sinais e inconsistências documentais",
+        "Pareceres formais e histórico de conclusão",
+        "Alertas operacionais configuráveis",
+        "Triagem de sinais documentais",
+        "Conciliação protegida entre cadastros locais e D1",
+        "Unificação de cadastros sem exclusão da origem",
+        "Reconciliação de arquivos legados locais",
+        "Conciliação em lotes acima de 250 registros",
+        "Histórico de criação, edição e inativação",
+        "Indicadores operacionais com pesquisa sob demanda",
+        "Favoritos de filtros por usuário e empresa",
+        "Consultas sem carregamento automático",
+        "Pesquisa em linguagem natural sobre registros do Rastro",
+        "Nomes parciais com proteção contra ambiguidade",
+        "Correção da contagem de endereços distintos",
+        "Excel com resumo e fontes de consulta",
+        "Histórico de diálogo na investigação",
+        "Conexão MyGeotab separada por empresa",
+        "Sincronização incremental de posições",
+        "Recuperação histórica de GPS por lotes",
+        "Confronto GPS por horário, endereço e veículo",
+        "Correção dos contratos entre tela, Go e Worker",
+        "Atualizador Windows mais seguro",
+        "Proteção de migrations e integridade dos pacotes",
+        "Quatro formas de baixar os registros de uma importação",
+        "Correção do erro de compilação do instalador de teste",
+        "Diagnóstico do perfil local e dos vínculos empresariais",
+        "Correção da comunicação que impedia consultar empresas após o login",
+        "Histórico mais explicativo e identificação de Mega Release"
+      ],
+      "documentacaoOriginal": "detalhada",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.51.2",
+      "titulo": "Gestão de usuários e persistência da Central RBS; envio ampliado",
+      "resumo": "",
+      "notas": [
+        "Editar usuário e perfil na Gestão de Usuários",
+        "Sessão administrativa cifrada preservada após sair do Rastro",
+        "Upload ZIP até 60 MiB (sujeito aos limites do Cloudflare)"
+      ],
+      "documentacaoOriginal": "Edição unificada do perfil, acesso persistente cifrado e limite de ZIP de 60 MiB.",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.51.1",
+      "titulo": "Troca de senha apos redefinicao: minimo de 6 caracteres",
+      "resumo": "",
+      "notas": [
+        "Troca obrigatoria apos reset aceita senha de 6 caracteres"
+      ],
+      "documentacaoOriginal": "Alteracao pontual no motor e no Worker, sem migration no D1.",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.51",
+      "titulo": "Governança corporativa e Central de Clientes organizada",
+      "resumo": "",
+      "notas": [
+        "Central de gestão em telas independentes",
+        "Permissões por tela e por grupo",
+        "Acesso administrativo e sessão protegida",
+        "Cadastro corporativo e comercial"
+      ],
+      "documentacaoOriginal": "Código motor + Worker integrados; testes locais aprovados. Atualização do Worker e do Rastro em produção ainda devem ser executadas.",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.50",
+      "titulo": "Acesso empresarial central e vínculo operacional entre empresas",
+      "resumo": "",
+      "notas": [
+        "Usuários podem acessar sua empresa em computadores com licença de outra empresa",
+        "Central RBS provisiona empresas operacionais",
+        "Isolamento entre empresas e revogação remota",
+        "Troca obrigatória de senha temporária independente da licença da máquina"
+      ],
+      "documentacaoOriginal": "Código motor + Worker integrados; testes locais aprovados. Atualização do Worker e do Rastro em produção ainda devem ser executadas.",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.49",
+      "titulo": "Correção do reset de senhas na Central RBS",
+      "resumo": "",
+      "notas": [
+        "Redefinição sem sobrecarga de CPU do Worker",
+        "Falhas da API com indicação HTTP",
+        "Proteção do campo de senha temporária"
+      ],
+      "documentacaoOriginal": "Teste local Go e Worker aprovados; publicação do Worker e instalação Windows pendentes",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.48",
+      "titulo": "Central de Clientes com governança exclusiva RBS, gestão de contas e licenças",
+      "resumo": "",
+      "notas": [
+        "Governança da software house e suporte autorizado",
+        "Redefinição de senha e cadastro de usuários",
+        "Gestão de empresas, usuários, planos e licenças",
+        "Geração de instalador e ZIP Windows"
+      ],
+      "documentacaoOriginal": "Implementada no código; validação real e instalador assinado pendentes",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.47",
+      "titulo": "Central RBS com autenticação integrada",
+      "resumo": "",
+      "notas": [
+        "Tentativa de acesso administrativo no login do Rastro",
+        "Mensagem específica para API administrativa ausente",
+        "Revogação do vínculo administrativo ao sair"
+      ],
+      "documentacaoOriginal": "Implementada no código; produção depende da publicação do Worker e da compilação Windows.",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.46",
+      "titulo": "Produção integrada e envio seguro pela Central",
+      "resumo": "",
+      "notas": [
+        "Publicação dentro do Rastro sem configurar variáveis manualmente",
+        "Confirmação confiável do envio de atualizações",
+        "Compilação de produção com dois pacotes"
+      ],
+      "documentacaoOriginal": "implementada no código; integração em produção pendente de validação externa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.45",
+      "titulo": "Sincronização remota de usuários e redefinição de senhas",
+      "resumo": "",
+      "notas": [
+        "Sincronização de identidades locais vinculadas ao CNPJ",
+        "Redefinição remota de senhas com senha temporária",
+        "Revogação de sessões ao inativar usuários",
+        "Provisionamento condicionado à empresa licenciada"
+      ],
+      "documentacaoOriginal": "parcial - homologação pendente",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.44",
+      "titulo": "Central Rastro: clientes, licenças e distribuição integrados",
+      "resumo": "",
+      "notas": [
+        "Login de administrador dentro do Rastro",
+        "Listagem de clientes e gestão de usuários",
+        "Licenças, planos, renovação e suspensão",
+        "Envio integrado de atualizações",
+        "Gates de segurança"
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.43",
+      "titulo": "Central de Clientes integrada ao License Manager",
+      "resumo": "",
+      "notas": [
+        "Clientes reais do Worker na Central",
+        "Pareamento administrativo temporário",
+        "Criação e ativação de usuários na nuvem"
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.42",
+      "titulo": "Central de Clientes e ativação persistente no Windows",
+      "resumo": "",
+      "notas": [
+        "Visualização de empresas e usuários existentes",
+        "Gestão administrativa segura",
+        "Licença protegida no Registro do Windows",
+        "Heartbeat e revogação preservados"
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.41",
+      "titulo": "Central de Atualizações com RC49.4",
+      "resumo": "",
+      "notas": [
+        "Verificação de atualizações na Central existente",
+        "Download íntegro e instalação assistida no Windows",
+        "Proteção de arquivos e retorno após falha",
+        "Licenciamento e histórico anterior preservados"
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.40",
+      "titulo": "Ativação contínua, sincronização simples e Central de Clientes",
+      "resumo": "",
+      "notas": [
+        "Licença permanece ativa no computador",
+        "Central de Sincronização com leitura corrigida",
+        "Central de Clientes da RBS Technology",
+        "Somente administradores criam administradores",
+        "Compilação do motor incluída no instalador"
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.38",
+      "titulo": "Sincronização Cloud e ativação pelo CNPJ",
+      "resumo": "",
+      "notas": [
+        "Central de Sincronização com Worker e Neon",
+        "Solicitar ativação pelo CNPJ",
+        "Proteções de segurança e continuidade",
+        "Identificação de dispositivos e compartilhamentos"
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.37",
+      "titulo": "Licenciamento obrigatório, banco SQLite e sincronização local segura",
+      "resumo": "",
+      "notas": [
+        "Ativação e verificação periódica da licença do Rastro.",
+        "Banco SQLite local separado por empresa.",
+        "Central de Sincronização entre computadores da mesma empresa.",
+        "Proteção de dados durante instalação mantida.",
+        "Interface de sincronização integrada ao menu Configurações.",
+        "Downloads identificados por tipo, motorista, mês e ano.",
+        "Identificação mais rápida ao importar planilhas.",
+        "Motorista escolhido em uma única lista de cadastrados.",
+        "Veículo e placa identificados pelo vínculo do período.",
+        "Ajustes preventivos na validação de rotas e na navegação."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.36",
+      "titulo": "Troca obrigatória de senha, histórico em pastas e permissões completas",
+      "resumo": "",
+      "notas": [
+        "Administradores podem solicitar nova senha a outro usuário.",
+        "Importações anteriores virou uma pasta expansível no menu.",
+        "Controle individual de acesso a todas as telas do acervo.",
+        "Atualizações com proteção automática de dados."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.35",
+      "titulo": "Acesso claro, preferências tipográficas e leitura ampliada",
+      "resumo": "",
+      "notas": [
+        "Somente um botão para revelar a senha.",
+        "Cadastro público sem escolha de empresa; aprovação com vínculo obrigatório.",
+        "Escolha pós-login sem opções administrativas e rodapé do menu reorganizado.",
+        "Tela de atualizações mais ampla, fontes maiores e descrições dos tipos de entrega.",
+        "15 tamanhos de fonte e mais de 20 famílias tipográficas no Meu Perfil.",
+        "Novo perfil Usuário, exclusivamente operacional."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.34",
+      "titulo": "Histórico renovado e escolha de empresa simplificada",
+      "resumo": "",
+      "notas": [
+        "Nova apresentação do histórico de atualizações em grafite, alinhada à identidade do Rastro.",
+        "Ampliação do histórico com versões anteriores recuperadas desde o primeiro Consolidador de Registros.",
+        "Descrições mais completas e organizadas por alteração individual.",
+        "Unidade de negócio aparece somente quando a empresa escolhida possui mais de uma unidade.",
+        "Nomes simplificados na escolha de contexto: Empresa e Unidade de negócio."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.33",
+      "titulo": "Acesso mais simples, aprovação e histórico organizado",
+      "resumo": "",
+      "notas": [
+        "Seleção de empresa mais direta, com unidade opcional exibida somente quando necessário.",
+        "Lembrar meu usuário e mostrar senha no acesso, sem armazenar senhas.",
+        "Cadastro externo de usuários com empresa obrigatória e aprovação antes do login.",
+        "Cadastro interno autorizado e fila de comunicação com o gestor de licenças.",
+        "Remoção da estrela de Favoritos da página Início.",
+        "Versões com numeração padronizada e tipos de entrega identificados em cada mudança."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.32",
+      "titulo": "Histórico de atualizações do sistema",
+      "resumo": "",
+      "notas": [
+        "Nova tela Atualizações do Sistema no final de Configurações.",
+        "Histórico pesquisável por versão, com explicações fáceis e detalhes de cada atualização documentada.",
+        "Processo de instalação bloqueia versões futuras sem registro público das novidades."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.31",
+      "titulo": "Navegação e consultas mais práticas",
+      "resumo": "",
+      "notas": [
+        "Downloads com informações de motorista, veículo e período.",
+        "Ignição ligada em verde e desligada em vermelho, inclusive em relatórios.",
+        "Seleção rápida de motorista cadastrado e organização das importações em telas próprias.",
+        "Favoritos no menu e melhorias em perguntas livres e Rastro Investiga."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.30",
+      "titulo": "Excel corrigido e validado",
+      "resumo": "",
+      "notas": [
+        "Correção da estrutura interna dos arquivos Excel.",
+        "Impedida a geração de arquivos com elementos fora da ordem esperada.",
+        "Testes com a planilha real da Michele e recuperação dos registros antigos."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.29",
+      "titulo": "Primeiras correções nos arquivos Excel",
+      "resumo": "",
+      "notas": [
+        "Ajustes para não gerar planilhas apenas com cabeçalho.",
+        "Tratamento de linhas vazias e filtros repetidos.",
+        "A correção não resolvia ainda todos os problemas de abertura no Excel."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.28",
+      "titulo": "Conclusão das regras complementares",
+      "resumo": "",
+      "notas": [
+        "Integração das 15 regras antes parciais.",
+        "Agrupamentos por período e novas opções de consulta.",
+        "Exportações, retenção e controle de vínculos receberam ajustes."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.27",
+      "titulo": "Ampliação dos parâmetros do Rastro",
+      "resumo": "",
+      "notas": [
+        "58 parâmetros passaram a ter validação e pontos de aplicação.",
+        "Novas regras para GPS, consolidação, histórico, segurança e exportação.",
+        "15 dessas integrações ainda estavam parciais na época."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.26",
+      "titulo": "Preferências e primeiros parâmetros ativos",
+      "resumo": "",
+      "notas": [
+        "Avanço nas opções do Meu Perfil e nas regras gerais do sistema.",
+        "Melhorias em PDF, filtros, datas, importações e informações da conta.",
+        "Ainda existiam parâmetros em desenvolvimento naquela versão."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.25",
+      "titulo": "Proteção de parâmetros",
+      "resumo": "",
+      "notas": [
+        "Bloqueio de alterações indevidas em parâmetros que ainda não funcionavam.",
+        "Verificação feita também no servidor, não apenas na tela."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.24",
+      "titulo": "Separação dos dados por empresa",
+      "resumo": "",
+      "notas": [
+        "Seleção da empresa e unidade autorizada após entrar.",
+        "Arquivos operacionais armazenados separadamente por organização.",
+        "Migração de dados antigos somente com confirmação e backup."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.23",
+      "titulo": "Cadastro de empresas e unidades",
+      "resumo": "",
+      "notas": [
+        "Cadastro de matriz, filial, CNPJ, unidades e logotipo.",
+        "Vinculação administrativa de usuários por empresa.",
+        "A separação operacional entre empresas ainda não estava disponível."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.22",
+      "titulo": "Meu Perfil 2.0",
+      "resumo": "",
+      "notas": [
+        "Área de preferências pessoais com busca e categorias.",
+        "Criado catálogo de 100 opções de personalização.",
+        "Algumas opções ainda estavam indisponíveis nesta versão."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.21",
+      "titulo": "Interruptores na parametrização",
+      "resumo": "",
+      "notas": [
+        "Opções do tipo Sim/Não ganharam controles de ligar/desligar.",
+        "Mantidos campos numéricos e permissões por checkbox."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.20",
+      "titulo": "Configurações e controle de acesso",
+      "resumo": "",
+      "notas": [
+        "Criadas as telas de parâmetros, perfis, acessos e usuários.",
+        "Permissões de visualizar, incluir, modificar e excluir.",
+        "Base inicial de 100 parâmetros, com parte ainda em preparação naquela época."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.19",
+      "titulo": "Nomes e textos mais claros",
+      "resumo": "",
+      "notas": [
+        "Revisão da nomenclatura das telas, botões e campos.",
+        "Nomes dos relatórios revisados para facilitar o uso."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.18",
+      "titulo": "Cinco modelos Excel e reexportação",
+      "resumo": "",
+      "notas": [
+        "Adicionados os modelos Original, Simplificado, Completo, Cronológico e Gerencial.",
+        "As importações anteriores passaram a permitir escolher o modelo na hora de baixar.",
+        "Informações descartadas por versões antigas não são inventadas na exportação."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.17",
+      "titulo": "Downloads e histórico de arquivos",
+      "resumo": "",
+      "notas": [
+        "Modelo Excel Original passou a ser a primeira opção de download.",
+        "Importações anteriores ganharam download do Excel consolidado salvo.",
+        "Mais relatórios passaram a oferecer Excel e PDF além de CSV.",
+        "Modelos Cronológico e Gerencial ainda eram propostas nesta versão."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.16",
+      "titulo": "Cores das etiquetas comprovadas",
+      "resumo": "",
+      "notas": [
+        "Paleta de 256 cores passou a usar imagens de cor sólida para maior compatibilidade.",
+        "Exportações originais e simplificadas foram verificadas com três meses de registros."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.15",
+      "titulo": "Exibição dos registros em Excel",
+      "resumo": "",
+      "notas": [
+        "Planilhas com registros aparecem antes da aba de resumo.",
+        "Nova forma de exibir as cores das etiquetas, com verificação adicional."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.14",
+      "titulo": "Etiquetas coloridas e melhorias no Excel",
+      "resumo": "",
+      "notas": [
+        "Paleta de cores das etiquetas reformulada.",
+        "Primeiras verificações para evitar baixar Excel sem dados.",
+        "Ajustada a precisão de datas e horários."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.13",
+      "titulo": "Importações mais seguras",
+      "resumo": "",
+      "notas": [
+        "Permite cancelar um lote antes de salvar.",
+        "Exclusões com autenticação e histórico para auditoria.",
+        "Sugestão de motoristas e destaque de ignição ligada/desligada."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.12",
+      "titulo": "Cabeçalho fixo",
+      "resumo": "",
+      "notas": [
+        "Cabeçalho permanece visível ao rolar páginas.",
+        "Redução de títulos repetidos sem remover ações importantes."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.11",
+      "titulo": "Biblioteca de relatórios organizada",
+      "resumo": "",
+      "notas": [
+        "Removidos textos e contadores repetidos da biblioteca de relatórios.",
+        "Mantidos modelos, filtros, prévias e exportações."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.10",
+      "titulo": "Telas mais limpas",
+      "resumo": "",
+      "notas": [
+        "Removidos banners repetitivos que ocupavam espaço.",
+        "Pesquisa do Rastro Investiga passou a ter apresentação mais direta."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.9",
+      "titulo": "Cabeçalho e perfil do usuário",
+      "resumo": "",
+      "notas": [
+        "Cabeçalho único para identificar a tela aberta.",
+        "Acesso ao perfil no rodapé do menu com nome de exibição e lembrete pessoal.",
+        "Ajuste da janela do Windows para evitar sobreposição."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.8",
+      "titulo": "Login e cadastro mais simples",
+      "resumo": "",
+      "notas": [
+        "Tela de entrada com usuário e senha e opção de continuar conectado.",
+        "Cadastro e troca de senha organizados em telas próprias.",
+        "O cadastro ainda era local, sem integração remota de licenças."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.7",
+      "titulo": "Atualização",
+      "resumo": "",
+      "notas": [
+        "Os detalhes desta atualização não foram localizados na documentação recuperada.",
+        "O número faz parte da sequência histórica, mas não foi possível confirmar as alterações."
+      ],
+      "documentacaoOriginal": "incompleta",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.6",
+      "titulo": "Atualização",
+      "resumo": "",
+      "notas": [
+        "Os detalhes desta atualização não foram localizados na documentação recuperada.",
+        "O número faz parte da sequência histórica, mas não foi possível confirmar as alterações."
+      ],
+      "documentacaoOriginal": "incompleta",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.5",
+      "titulo": "Atualização",
+      "resumo": "",
+      "notas": [
+        "Os detalhes desta atualização não foram localizados na documentação recuperada.",
+        "O número faz parte da sequência histórica, mas não foi possível confirmar as alterações."
+      ],
+      "documentacaoOriginal": "incompleta",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.4",
+      "titulo": "Atualização",
+      "resumo": "",
+      "notas": [
+        "Os detalhes desta atualização não foram localizados na documentação recuperada.",
+        "O número faz parte da sequência histórica, mas não foi possível confirmar as alterações."
+      ],
+      "documentacaoOriginal": "incompleta",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.3",
+      "titulo": "Atualização",
+      "resumo": "",
+      "notas": [
+        "Os detalhes desta atualização não foram localizados na documentação recuperada.",
+        "O número faz parte da sequência histórica, mas não foi possível confirmar as alterações."
+      ],
+      "documentacaoOriginal": "incompleta",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.2",
+      "titulo": "Atualização",
+      "resumo": "",
+      "notas": [
+        "Os detalhes desta atualização não foram localizados na documentação recuperada.",
+        "O número faz parte da sequência histórica, mas não foi possível confirmar as alterações."
+      ],
+      "documentacaoOriginal": "incompleta",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.1",
+      "titulo": "Atualização",
+      "resumo": "",
+      "notas": [
+        "Os detalhes desta atualização não foram localizados na documentação recuperada.",
+        "O número faz parte da sequência histórica, mas não foi possível confirmar as alterações."
+      ],
+      "documentacaoOriginal": "incompleta",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.34.0.0",
+      "titulo": "Auditoria e análise operacional",
+      "resumo": "",
+      "notas": [
+        "Melhorias de auditoria, indicadores e fiscalização do acervo."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.33.0.0",
+      "titulo": "Visões 360°",
+      "resumo": "",
+      "notas": [
+        "Consultas consolidadas por motorista, veículo e outras dimensões do acervo."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.32.0.0",
+      "titulo": "Análises investigativas",
+      "resumo": "",
+      "notas": [
+        "Ampliação das consultas investigativas e explicações dos resultados."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.31.0.0",
+      "titulo": "Inteligência local",
+      "resumo": "",
+      "notas": [
+        "Recursos para encontrar informações e relações no acervo local."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.30.0.0",
+      "titulo": "Biblioteca de relatórios",
+      "resumo": "",
+      "notas": [
+        "Ampliação dos modelos e formatos de relatórios disponíveis."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.29.0.0",
+      "titulo": "Painéis analíticos",
+      "resumo": "",
+      "notas": [
+        "Painéis com indicadores e comparações dos registros históricos."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.28.0.0",
+      "titulo": "Redesenho e experiência em português",
+      "resumo": "",
+      "notas": [
+        "Reorganização visual, simplificação da navegação e padronização dos componentes."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.27.1.0",
+      "titulo": "Relatórios com identidade editorial",
+      "resumo": "",
+      "notas": [
+        "Ajustes na apresentação dos modelos de relatório Excel e PDF."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.27.0.0",
+      "titulo": "Ferramentas de investigação",
+      "resumo": "",
+      "notas": [
+        "Ampliação das telas e ações de análise do acervo."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.26.0.0",
+      "titulo": "Perguntas sobre os dados",
+      "resumo": "",
+      "notas": [
+        "Interface de perguntas para explorar registros já importados."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.25.0.0",
+      "titulo": "Pacotes de evidência",
+      "resumo": "",
+      "notas": [
+        "Organização e verificação dos arquivos de evidências."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.24.0.0",
+      "titulo": "Rastro Investigator",
+      "resumo": "",
+      "notas": [
+        "Recursos investigativos para consultar ocorrências e reunir evidências."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.23.0.0",
+      "titulo": "Coleções e conexões",
+      "resumo": "",
+      "notas": [
+        "Estrutura para organizar análises relacionadas e suas referências."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.22.0.0",
+      "titulo": "Organização e acompanhamento",
+      "resumo": "",
+      "notas": [
+        "Recursos de organização das análises e acompanhamentos manuais."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.21.0.0",
+      "titulo": "Comparação e mapas",
+      "resumo": "",
+      "notas": [
+        "Recursos de comparação e consulta de localizações dos registros."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.20.0.0",
+      "titulo": "Importação incremental",
+      "resumo": "",
+      "notas": [
+        "Melhorias no tratamento de novas importações e reprocessamento."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.19.0.0",
+      "titulo": "Inteligência do acervo",
+      "resumo": "",
+      "notas": [
+        "Consultas que cruzam informações existentes nos registros importados."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.18.0.0",
+      "titulo": "Gestão das importações",
+      "resumo": "",
+      "notas": [
+        "Recursos para localizar e administrar importações já feitas."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.17.0.0",
+      "titulo": "Identidade do produto",
+      "resumo": "",
+      "notas": [
+        "Ajustes de apresentação da marca Rastro e de seus relatórios."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.16.0.0",
+      "titulo": "Acesso e janela do aplicativo",
+      "resumo": "",
+      "notas": [
+        "Melhorias no acesso ao sistema e no cabeçalho da janela Windows."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.15.1.0",
+      "titulo": "Correções em Excel, PDF e interface",
+      "resumo": "",
+      "notas": [
+        "Verificações de integridade e melhorias em caracteres e estilos dos arquivos Excel.",
+        "Relatórios PDF reorganizados para facilitar a leitura.",
+        "Removidos avisos visuais desnecessários da interface."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.15.0.0",
+      "titulo": "Relatórios Inteligentes",
+      "resumo": "",
+      "notas": [
+        "Montagem de relatórios com filtros, prévia, Excel e PDF.",
+        "Filtros favoritos para reutilizar configurações de relatórios.",
+        "Opções para incluir comentários, mapas e referências à origem."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.14.0.0",
+      "titulo": "Padrões e comparações de registros",
+      "resumo": "",
+      "notas": [
+        "Nova análise de padrões de motoristas, veículos e etiquetas aplicadas manualmente.",
+        "Comparação de períodos com explicação das mudanças observadas e referências à origem."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.13.0.0",
+      "titulo": "Comparações e histórico por veículo",
+      "resumo": "",
+      "notas": [
+        "Comparar planilhas originais, calendário dos registros e histórico por veículo."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.12.3.0",
+      "titulo": "Acervo de importações",
+      "resumo": "",
+      "notas": [
+        "Pastas virtuais, destaques, observações e comparação de duas análises."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.12.2.0",
+      "titulo": "Preservar revisões de dados reimportados",
+      "resumo": "",
+      "notas": [
+        "Comparação segura para copiar revisões entre importações equivalentes, mediante confirmação."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.12.1.0",
+      "titulo": "Revisão de várias visitas",
+      "resumo": "",
+      "notas": [
+        "Seleção e edição em lote de visitas, com filtros e histórico das alterações."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.12.0.0",
+      "titulo": "Revisão manual de visitas",
+      "resumo": "",
+      "notas": [
+        "Etiquetas coloridas, comentários e acompanhamento das visitas registradas.",
+        "Revisões com situações como Em análise ou Concluída."
+      ],
+      "documentacaoOriginal": "completa",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.8.0.0",
+      "titulo": "Backup completo e restauração",
+      "resumo": "",
+      "notas": [
+        "Cópia de segurança em ZIP com conferência de integridade e restauração confirmada."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.3.0.0",
+      "titulo": "Visitas agrupadas e jornada compacta",
+      "resumo": "",
+      "notas": [
+        "Agrupamento de visitas por local e data, busca e detalhes expansíveis."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.2.0.0",
+      "titulo": "Locais, horários e feriados",
+      "resumo": "",
+      "notas": [
+        "Organização dos locais com busca e filtros; visualização mais clara de horários e feriados."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v2.1.0.0",
+      "titulo": "Identidade do Rastro",
+      "resumo": "",
+      "notas": [
+        "Novo nome Rastro e identidade visual em preto, branco e cinza, com navegação simplificada."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v1.7.0.0",
+      "titulo": "Consultas geográficas",
+      "resumo": "",
+      "notas": [
+        "Melhorias nas análises de endereços e localizações."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v1.6.0.0",
+      "titulo": "Linha do tempo",
+      "resumo": "",
+      "notas": [
+        "Apresentação cronológica para acompanhar ocorrências no período analisado."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v1.5.0.0",
+      "titulo": "Proteção da integridade",
+      "resumo": "",
+      "notas": [
+        "Verificações para preservar e conferir a consistência dos dados do histórico."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v1.4.0.0",
+      "titulo": "Relatórios de visitas e duplicidades",
+      "resumo": "",
+      "notas": [
+        "Relatórios de visitas e verificação de registros repetidos."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v1.3.0.0",
+      "titulo": "Expedientes e alertas",
+      "resumo": "",
+      "notas": [
+        "Regras de expediente e alertas para apoiar a leitura dos registros recebidos."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v1.2.0.0",
+      "titulo": "Dados padronizados e evidências GPS",
+      "resumo": "",
+      "notas": [
+        "Normalização dos registros e informações de localização para apoiar a conferência das viagens."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v1.1.0.0",
+      "titulo": "Central de Auditoria e histórico local",
+      "resumo": "",
+      "notas": [
+        "Importação de vários arquivos, confirmação do motorista, histórico de análises e consultas de visitas."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    },
+    {
+      "versao": "v1.0.0.0",
+      "titulo": "Primeira versão do Consolidador de Registros",
+      "resumo": "",
+      "notas": [
+        "Consolidação de planilhas XLS/XLSX, mantendo registros relevantes por endereço e exportando o resultado em Excel."
+      ],
+      "documentacaoOriginal": "resumida",
+      "dataLancamentoOriginal": null,
+      "instaladorOriginalVerificado": false,
+      "estado": "historico_sem_instalador"
+    }
+  ]
+}
