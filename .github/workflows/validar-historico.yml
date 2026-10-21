@@ -1,0 +1,27 @@
+name: Validar histórico do Rastro
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/historico.json"
+      - "scripts/validar-historico.mjs"
+      - ".github/workflows/validar-historico.yml"
+  pull_request:
+    paths:
+      - "docs/historico.json"
+      - "scripts/validar-historico.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Conferir integridade histórica
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/validar-historico.mjs
