@@ -1,29 +1,56 @@
-# Rastro | Portal de versões
+# Rastro • Portal oficial de versões
 
-Portal de distribuição e documentação do **Rastro**, da **RBS Technology**.
+Site institucional e central de versões do Rastro, produto da RBS Technology.
 
-## Ativar GitHub Pages
+**URL:** https://borjaorafa.github.io/Rastro-Portal/
 
-Em **Settings → Pages**, selecione **Deploy from a branch**, branch `main`, pasta `/docs` e clique em **Save**.
+## Identidade visual
 
-URL prevista: https://borjaorafa.github.io/Rastro-Portal/
+- Marca oficial do Rastro: `docs/assets/logo-oficial.svg`.
+- Variante de alto contraste: `docs/assets/logo-claro.svg`.
+- Ícone: `docs/assets/icone.svg`.
+- Paleta: preto, branco e grafite.
 
-## Organização
+## Como publicar
 
-- `docs/index.html`: página inicial responsiva.
-- `docs/assets/estilos.css`: estilos.
-- `docs/assets/aplicativo.js`: catálogo de versões.
-- `docs/assets/marca.svg`: marca conceitual provisória.
-- `docs/versoes.json`: catálogo público de releases.
+GitHub **Settings → Pages → Deploy from a branch → main → /docs**.
 
-## Segurança
+## Catálogo de versões
 
-Este repositório é **público**. Não adicione instaladores confidenciais, senhas, tokens ou código privado. O download para clientes precisa ser autorizado pelo fluxo de licenciamento e distribuição RBS License Manager, sem expor URL privada ou token no JavaScript.
+O arquivo `docs/versoes.json` controla os cartões. Inicialmente, não existem versões homologadas cadastradas. Não há instaladores disponíveis nesta publicação.
 
-O único item inicialmente exibido no catálogo é **um rascunho de referência**, não um instalador homologado. Botões de download permanecem desativados.
+Estrutura de item de versão:
 
-## Como publicar versões
+```json
+{
+  "versao": "X.Y.Z",
+  "estado": "publicada",
+  "publicadaEm": "AAAA-MM-DD",
+  "resumo": "Resumo da versão",
+  "notas": ["Melhoria A", "Correção B"],
+  "tamanhoMB": 0,
+  "sha256": "HASH_SHA256_VALIDADO",
+  "urlDownload": "https://SEU-ENDPOINT-AUTORIZADO"
+}
+```
 
-Após homologar o instalador e implementar um endpoint de download autorizado, atualize `docs/versoes.json` com os dados oficiais. Nunca utilize URLs permanentes abertas para um arquivo de acesso restrito.
+Para downloads controlados, **não use links públicos** para releases privados. O campo `urlDownload` só deve apontar para um endpoint HTTPS autenticado que valide autorização no servidor, preferencialmente integrado ao RBS License Manager. Senhas, tokens e links temporários não devem constar em arquivos públicos.
+
+A função de busca filtra versão, resumo e notas. Apenas versões com estado `publicada` e URL HTTPS são consideradas disponíveis. Mesmo nesses casos, a autorização do download é responsabilidade do servidor.
+
+## Arquivos
+
+- `docs/index.html`: estrutura e SEO.
+- `docs/assets/estilos.css`: layout responsivo.
+- `docs/assets/aplicativo.js`: catálogo e interações.
+- `docs/versoes.json`: lançamentos homologados.
+
+## Pendências
+
+- Validar e cadastrar a versão oficial atual.
+- Receber instalador e hash SHA-256.
+- Configurar endpoint de download autorizado.
+- Vincular a autenticação/licença.
+- Adicionar capturas reais do aplicativo quando disponíveis.
 
 © RBS Technology.
