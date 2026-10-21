@@ -1,0 +1,14 @@
+# Instaladores e artefatos locais jamais entram no repositorio publico
+_releases_locais/
+_instaladores/
+instaladores/
+*.exe
+*.msi
+*.msix
+*.msixbundle
+*.pfx
+*.p12
+*.key
+.env
+.env.*
+*.pem
