@@ -7,16 +7,17 @@
       "versao": "v2.34.0.58.4",
       "estado": "homologacao",
       "publicadaEm": null,
-      "resumo": "Instalador Windows gerado e instalado em teste. Verificação da assinatura e homologação funcional ainda pendentes.",
+      "resumo": "Compilação e instalação de teste concluídas. Assinatura de teste aplicada; a cadeia do certificado autoassinado não é confiável (UntrustedRoot). Homologação funcional pendente.",
       "notas": [
         "Compilação Windows e integridade do instalador verificadas.",
-        "Instalação inicial concluída em computador de teste.",
-        "Assinatura com certificado autoassinado ainda sem validação Authenticode conclusiva.",
-        "Correções funcionais, assinatura reconhecida e publicação para clientes pendentes."
+        "Instalação realizada em computador de teste.",
+        "Assinatura de teste identificada; verificação Authenticode: UnknownError devido a UntrustedRoot.",
+        "Certificado RBS Technology - TESTE autoassinado: não aprovado para distribuição oficial.",
+        "Correções funcionais e assinatura confiável para clientes continuam pendentes."
       ],
       "urlDownload": null,
       "acesso": "indisponivel",
-      "observacao": "Não distribuir aos clientes."
+      "observacao": "Versão exclusiva para homologação. Sem download para clientes."
     }
   ]
 }
