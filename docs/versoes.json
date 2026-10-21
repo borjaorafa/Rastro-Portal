@@ -1,6 +1,22 @@
 {
   "produto": "Rastro",
   "empresa": "RBS Technology",
-  "publicacao": "Somente versões homologadas e autorizadas são disponibilizadas.",
-  "versoes": []
+  "publicacao": "Versões em homologação são informativas; instaladores só ficam disponíveis após aprovação e autorização.",
+  "versoes": [
+    {
+      "versao": "v2.34.0.58.4",
+      "estado": "homologacao",
+      "publicadaEm": null,
+      "resumo": "Instalador Windows gerado e instalado em teste. Verificação da assinatura e homologação funcional ainda pendentes.",
+      "notas": [
+        "Compilação Windows e integridade do instalador verificadas.",
+        "Instalação inicial concluída em computador de teste.",
+        "Assinatura com certificado autoassinado ainda sem validação Authenticode conclusiva.",
+        "Correções funcionais, assinatura reconhecida e publicação para clientes pendentes."
+      ],
+      "urlDownload": null,
+      "acesso": "indisponivel",
+      "observacao": "Não distribuir aos clientes."
+    }
+  ]
 }
