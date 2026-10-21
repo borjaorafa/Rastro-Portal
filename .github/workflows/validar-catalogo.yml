@@ -1,0 +1,30 @@
+name: Validar catálogo do Rastro
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/versoes.json"
+      - "scripts/validar-catalogo.mjs"
+      - ".github/workflows/validar-catalogo.yml"
+  pull_request:
+    paths:
+      - "docs/versoes.json"
+      - "scripts/validar-catalogo.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Conferir metadados de versões
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar arquivos do repositório
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validar catálogo público
+        run: node scripts/validar-catalogo.mjs
